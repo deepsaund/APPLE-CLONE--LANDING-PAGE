@@ -1,0 +1,250 @@
+@font-face {
+    font-family: seb;
+    src: url('./sf-pro-text_regular.woff2') format('woff2'),
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: seb;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.nav {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    gap: 40px;
+    z-index: 1000;
+    font-family: seb;
+    padding: 20px 50px;
+    color: rgb(0, 0, 0);
+    background: #ffffffde;
+
+}
+
+.nav h4 {
+    font-family: seb;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.logo {
+    font-size: 16px;
+
+    margin-right: 10px;
+
+}
+
+.center {
+    margin: 8vh 0px 0px 0px;
+    height: 80%;
+    background-image: url('./hero_iphone_17_pro__bknyzxfk2agi_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+
+.center h1 {
+    font-size: 60px;
+    padding-top: 40px;
+    font-weight: 700;
+    font-family: seb;
+
+}
+
+.center h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: seb;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.links button {
+    background: #007acc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: seb;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.links .btn2 {
+    background: none;
+    color: #007acc;
+    border: 1px solid #007acc;
+}
+
+.links button:hover {
+    color: white;
+    background: #007acc;
+}
+
+.center2 {
+    height: 80%;
+    background-image: url('./hero_iphone_air__0gxyavihpiqu_large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+
+
+.center2 h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-family: seb;
+
+}
+
+
+.center2 h3 {
+    font-size: 29px;
+    font-weight: 100;
+    font-family: seb;
+    /* letter-spacing: 20px; */
+
+}
+
+.center3 {
+
+    height: 240%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* background: #9e5555; */
+}
+
+.center3 .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+
+
+}
+
+.center3 .wrapper h1 {
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-family: seb;
+
+}
+
+.bx {
+    background: #adadad;
+    height: 600px;
+    width: 100%;
+}
+
+
+.box1 {
+    background-image: url('./box1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.box1 h1{
+    /* padding-top: 15px; */
+    color: #ef3636;
+}
+
+.box2 {
+    background-image: url('./box2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url('./box3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.watch_text {
+    font-weight: 800;
+
+}
+
+.watch_series {
+    font-weight: 100;
+
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('./box4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.txt{
+    padding-bottom: 7%;
+}
+
+.txt h3,.box2 h3,.box1 h3,.box3 h3{
+    font-size: 27px;
+    padding-top: 6px;
+    font-weight: 100;
+    font-family: seb;
+}
+.box2 h3{
+    font-size:23px;
+}
+
+.box5 {
+    background-image: url('./box5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    background-image: url('./box6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
